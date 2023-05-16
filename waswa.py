@@ -1,0 +1,16 @@
+import turtle
+for i in range(2):
+    turtle.forward(250)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.left(90)
+turtle.penup()
+turtle.forward(125)
+turtle.left(90)
+turtle.forward(100-50)
+turtle.right(90)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color('crimson')
+turtle.circle(50)
+turtle.end_fill()
